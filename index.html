@@ -3,26 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Domain Taken</title>
-    <meta http-equiv="refresh" content="10; url=https://www.fsw.edu/canvas">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
+    <title>Redirecting...</title>
+    <script>
+        // Redirect to the previous page if available
+        var previousUrl = document.referrer;
+        if (previousUrl) {
+            window.location.href = previousUrl;
+        } else {
+            // Fallback URL if no referrer is available
+            window.location.href = "https://www.google.com"; // Change this to your fallback URL
         }
-        h1 {
-            color: #ff0000;
-        }
-        p {
-            font-size: 18px;
-            color: #333;
-        }
-    </style>
+    </script>
 </head>
 <body>
-    <h1>Domain Taken</h1>
-    <p>We're sorry, but this domain has already been registered by someone else.You will be redirected to <a href="https://www.fsw.edu/canvas">Canvas</a> in 10 seconds.If you believe this is an error, please contact the domain registrar for more information.</p>
+    <p>If you are not redirected automatically, follow this <a href="#" onclick="window.history.back();">link to go back</a>.</p>
 </body>
 </html>
