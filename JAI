@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=https://www.fsw.edu/canvas">
+    <link rel="canonical" href="https://www.fsw.edu/canvas">
+</head>
+<body>
+    <p>If you are not redirected automatically, follow this <a href="https://www.fsw.edu/canvas">link to Canvas</a>.</p>
+</body>
+</html>
